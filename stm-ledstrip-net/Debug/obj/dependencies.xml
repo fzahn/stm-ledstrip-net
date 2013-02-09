@@ -1,0 +1,1158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\src\include\ipv4\lwip /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\port\STM32F4x7\Standalone /I..\..\..\workspace\stm-ledstrip-net\cmsis_lib /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\port\STM32F4x7 /I..\..\..\workspace\stm-ledstrip-net\cmsis_lib\include /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\src\include /I..\..\..\workspace\stm-ledstrip-net\cmsis_boot /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\src\include\ipv4 /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\src\include\lwip /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\src /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\src\include\ipv6 /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\src\include\netif /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\src\netif /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\port /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\src\include\ipv6\lwip /I..\..\..\workspace\stm-ledstrip-net\cmsis /I..\..\..\workspace /I..\..\..\workspace\stm-ledstrip-net /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\src\netif\ppp /I..\..\.. /I..\..\..\workspace\stm-ledstrip-net\lwip_v1.3.2\port\STM32F4x7\arch">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="13cc00bc67f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwipopts.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\autoip.c" lastModified="13cbfc0dbe8">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\netif\slipif.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\raw.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="13cc00c0e5a">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_tdes.c" lastModified="13cc00c2de5">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\delay.h" lastModified="13cc10307cd">
+      </source>
+      <source file="..\..\..\delay.c" lastModified="13cc0f9e01c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="13cc00bfc98">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\ipcp.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\ipcp.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\vj.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ipcp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\tcpip.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\init.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\md5.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_msg.h" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_structs.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h" lastModified="13cc00c29b6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\md5.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\md5.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_aes.c" lastModified="13cc00c2de3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\lcp.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13cc00bc049">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\vj.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\vjbsdhdr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13cc00b7036">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\lcp.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\lcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="13cc00c07b2">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\vj.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\vj.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\snmp\msg_out.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_asn1.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_msg.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\ip.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_asn1.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="13cc00bfc99">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h" lastModified="13cc00c0e5a">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\Standalone\ethernetif.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+      </source>
+      <source file="..\..\..\stm32f4x7_eth_conf.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\Standalone\ethernetif.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\Standalone\ethernetif.h"/>
+         <include file="..\..\..\stm32f4x7_eth.h"/>
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\netbuf.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dbgmcu.h" lastModified="13cc00c35a6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\api_msg.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api_msg.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13cc00b7036">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_structs.h" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="13cc00c07b6">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\tcp_out.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_des.c" lastModified="13cc00c2de5">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\ip_addr.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\sio.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="13cc00bffb6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\cc.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\cpu.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_wwdg.c" lastModified="13cc00bf5e0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\netdb.h" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sockets.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13cc00bc045">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\tcp_in.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\snmp\mib_structs.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_structs.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\loopif.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\loopif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\etharp.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_can.h" lastModified="13cc00c2607">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\inet_chksum.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+      </source>
+      <source file="..\..\..\netconf.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\igmp.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\debug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\pbuf.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\md5.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chpms.h"/>
+      </source>
+      <source file="..\..\..\netconf.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\Standalone\ethernetif.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\netconf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_hash.c" lastModified="13cc00c1a6f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.c" lastModified="13cbfc0dbe8">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\lcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ipcp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\snmp\msg_in.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_asn1.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_msg.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_structs.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="13cc00c0364">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\udp.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\mem.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\sockets.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sockets.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwipopts.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\debug.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\cc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="13cc00bffb7">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\tcp_echoserver.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\tcp_echoserver.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\debug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_pwr.h" lastModified="13cc00be516">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\md5.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\netif\loopif.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\init.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\init.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sockets.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_msg.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\tcp.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\debug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="13cc148dc09">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\stm32f4x7_eth_bsp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="13cc00c11b5">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_can.c" lastModified="13cc00c2608">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_can.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="13cc145ad18">
+         <include file="..\..\..\stm32f4x7_eth.h"/>
+         <include file="..\..\..\netconf.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\tcp_echoserver.h"/>
+         <include file="..\..\..\serial_debug.h"/>
+         <include file="..\..\..\ws2812.h"/>
+         <include file="..\..\..\delay.h"/>
+         <include file="..\..\..\stm32f4xx_it.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_wwdg.h" lastModified="13cc00bf5d9">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\sys_arch.h" lastModified="13cbfc0e3b8">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\netifapi.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\icmp.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\netbuf.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_hash_md5.c" lastModified="13cc00c1a6f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h" lastModified="13cc00c1639">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp.c" lastModified="13cc00c2de2">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.h" lastModified="13cc106d10a">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="13cc00be516">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\stm32f4xx_it.h"/>
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_hash.h" lastModified="13cc00c1a5f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\ws2812.h" lastModified="13c73c27f80">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="13cc00a7113">
+      </source>
+      <source file="..\..\..\ws2812.c" lastModified="13c73c27f80">
+         <include file="..\..\..\ws2812.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\api_msg.h" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\dhcp.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\ip_frag.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\pap.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\pap.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pap.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13cc13deca8">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="13cc00c163c">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\inet.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+      </source>
+      <source file="..\..\..\serial_debug.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\snmp\asn1_enc.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_asn1.h"/>
+      </source>
+      <source file="..\..\..\serial_debug.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\stm32f4_discovery.h"/>
+         <include file="..\..\..\serial_debug.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h" lastModified="13cc00be8fa">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="13cc00bf973">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\netdb.c" lastModified="13cbfc0dbe8">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netdb.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="13cc00c1de2">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="13cc00b924e">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp_oe.c" lastModified="13cbfc0dbe8">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="13cc06e4829">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h" lastModified="13cbfc0d800">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h" lastModified="13cc00c0ae5">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h" lastModified="13cc00c2de1">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_iwdg.c" lastModified="13cc00bf27b">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_iwdg.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\sockets.h" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h" lastModified="13cc00c0355">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\snmp\mib2.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_asn1.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_structs.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\sys_arch.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_hash_sha1.c" lastModified="13cc00c1a6f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\stats.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13cc0720d5f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_can.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dbgmcu.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_iwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13cc00c31e6">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\debug.h" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_crc.c" lastModified="13cc00be8fb">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="13cc00bf973">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\vjbsdhdr.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="13cc00c11a6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\cpu.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\init.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="13cc00c0ae8">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api_msg.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netifapi.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13c97ce8a68">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="13cc00bda01">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="13cc00c1de0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13c97ce8a68">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\stm32f4x7_eth.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\stm32f4x7_eth_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="13cc00a710b">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\dns.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="13cc00bc67f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+      <source file="..\..\..\stm32f4x7_eth.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\stm32f4x7_eth.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\netif.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="13cc00a5e99">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\netifapi.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netifapi.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sio.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sockets.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rtc.h" lastModified="13cc00beeb1">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ipcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\lcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\vj.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_iwdg.h" lastModified="13cc00bf27b">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\chpms.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\err.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+      </source>
+      <source file="..\..\..\stm32f4x7_eth_bsp.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\stm32f4_discovery.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\chpms.c" lastModified="13cbfc0dbe8">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chpms.h"/>
+      </source>
+      <source file="..\..\..\stm32f4x7_eth_bsp.c" lastModified="13cc1243cc0">
+         <include file="..\..\..\stm32f4x7_eth.h"/>
+         <include file="..\..\..\stm32f4x7_eth_bsp.h"/>
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13cc00c31e5">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="13cc00b924e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="13cc00bda03">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\slipif.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\slipif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sio.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\memp.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api_msg.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\api_lib.c" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h" lastModified="13cbfc0d800">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="13cc00a7111">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="13cc00beeb4">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\snmp\asn1_dec.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_asn1.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h" lastModified="13cbfc0d418">
+      </source>
+      <source file="..\..\..\stm32f4_discovery.h" lastModified="13cbfc0d418">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dcmi.c" lastModified="13cc00c29b7">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="13cc00a710d">
+      </source>
+      <source file="..\..\..\stm32f4_discovery.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\stm32f4_discovery.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\sys.c" lastModified="13cbfc0d418">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dbgmcu.c" lastModified="13cc00c35a6">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dbgmcu.h"/>
+      </source>
+   </includePath>
+</dependencies>
