@@ -35,13 +35,16 @@
  /* This file was modified by ST */
 
 
+#include "lwipopts.h"
 #include "lwip/debug.h"
 #include "lwip/stats.h"
 #include "lwip/tcp.h"
+#include <string.h>;
 
 #if LWIP_TCP
 
 static struct tcp_pcb *tcp_echoserver_pcb;
+
 
 /* ECHO protocol states */
 enum tcp_echoserver_states
@@ -211,8 +214,11 @@ static err_t tcp_echoserver_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p
     es->state = ES_RECEIVED;
     
     /* store reference to incoming pbuf (chain) */
+
     es->p = p;
-    
+
+
+
     /* initialize LwIP tcp_sent callback function */
     tcp_sent(tpcb, tcp_echoserver_sent);
     
@@ -227,7 +233,6 @@ static err_t tcp_echoserver_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p
     if(es->p == NULL)
     {
       es->p = p;
-  
       /* send back received data */
       tcp_echoserver_send(tpcb, es);
     }

@@ -23,12 +23,14 @@
 #include "stm32f4x7_eth.h"
 #include "netconf.h"
 #include "main.h"
-#include "tcp_echoserver.h"
+//#include "tcp_echoserver.h"
+#include "telnetserver.h"
 #include "serial_debug.h"
 #include "ws2812.h"
 #include "delay.h"
 #include "stm32f4xx_it.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /* Private typedef -----------------------------------------------------------*/
 
@@ -37,6 +39,9 @@
 	uint32_t pos_r = 40;
 	uint32_t pos_g = 20;
 	uint32_t pos_b = 0;
+
+	uint32_t random =0;
+
 /* Private function prototypes -----------------------------------------------*/
 void LED_Init(void);
 
@@ -67,8 +72,8 @@ int main(void)
   LwIP_Init();
   
   /* tcp echo server Init */
-  tcp_echoserver_init();
-   
+ // tcp_echoserver_init();
+  telnetserver_init();
 
 
   ws2812_init();
@@ -120,13 +125,16 @@ void LED_Init(void)
 void DRAW_LED(void)
 {
     uint8_t decision = 0;
-       if (system_time%19000 <3000) {
+       if (system_time%25000 <3000) {
            decision = 1;
-       } else if (system_time%19000<6000) {
+       } else if (system_time%25000<6000) {
            decision = 2;
-       } else  if (system_time%19000<9000) {
+       } else  if (system_time%25000<9000) {
            decision = 3;
-       } else decision = 4;
+       } else  if (system_time%25000<19000) {
+    	   decision = 4;
+    	   srand(system_time);
+       } else decision=5;
        switch (decision) {
            case 1:
                for (int i=0;i<FRAMEBUFFER_SIZE;i+=30) {
@@ -179,6 +187,30 @@ void DRAW_LED(void)
                    for (int j=0;j<10;j++) ws2812_framebuffer[i+j].green=255;
                }
                break;
+           case 4:
+        	   	  for(int i=0;i<FRAMEBUFFER_SIZE;i++) {
+        	   		  uint8_t randnumber1=rand()%3;
+
+        	   		  switch(randnumber1) {
+        	   		  case 0:
+        	   		  	  ws2812_framebuffer[i].red=255;
+        	   		  	  ws2812_framebuffer[i].blue=0;
+        	   		  	  ws2812_framebuffer[i].green=0;
+        	   		  	  break;
+        	   		  case 1:
+    	   		  	  	  ws2812_framebuffer[i].red=0;
+    	   		  	  	  ws2812_framebuffer[i].blue=255;
+    	   		  	  	  ws2812_framebuffer[i].green=0;
+    	   		  	  	  break;
+        	   		  case 2:
+    	   		  	  	  ws2812_framebuffer[i].red=0;
+    	   		  	  	  ws2812_framebuffer[i].blue=0;
+    	   		  	  	  ws2812_framebuffer[i].green=255;
+    	   		  	  	  break;
+        	   		  }
+           	   		  delay_ms(2);
+        	   	  }
+        	   	  break;
            default:
                for (int i=0;i<FRAMEBUFFER_SIZE;i++) {
                    ws2812_framebuffer[i].red=ws2812_framebuffer[i].green=ws2812_framebuffer[i].blue=0;
