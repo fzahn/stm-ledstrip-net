@@ -1,36 +1,21 @@
 /**
-  ******************************************************************************
-  * @file    main.c
-  * @author  MCD Application Team
-  * @version V1.0.0
-  * @date    31-October-2011
-  * @brief   Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
-  * WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE
-  * TIME. AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY
-  * DIRECT, INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING
-  * FROM THE CONTENT OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE
-  * CODING INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
-  *
-  * <h2><center>&copy; COPYRIGHT 2011 STMicroelectronics</center></h2>
+Artnet2WS2811 Receiver , based on STM32Fr
+CCC-Mannheim 2013
   ******************************************************************************
   */
-
+#define SERIAL_DEBUG
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4x7_eth.h"
 #include "netconf.h"
 #include "main.h"
-//#include "tcp_echoserver.h"
-#include "telnetserver.h"
 #include "serial_debug.h"
+#include "stm32f4_discovery.h"
 #include "ws2812.h"
 #include "delay.h"
 #include "stm32f4xx_it.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "art-net.h"
 
 /* Private typedef -----------------------------------------------------------*/
 
@@ -61,7 +46,7 @@ int main(void)
 #ifdef SERIAL_DEBUG
   DebugComPort_Init();  
 #endif
-
+  printf(" Artnet2WS2811 Receiver\r\n ");
   /*Initialize LCD and Leds */ 
   LED_Init();
   
@@ -72,9 +57,9 @@ int main(void)
   LwIP_Init();
   
   /* tcp echo server Init */
- // tcp_echoserver_init();
-  telnetserver_init();
-
+  //tcp_echoserver_init();
+  //telnetserver_init();
+ artnet_init();
 
   ws2812_init();
   /* Initialize variables for ws2812 */

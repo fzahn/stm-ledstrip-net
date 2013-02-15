@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <History> 
-  <File usedCount="2" path="syscalls/syscalls.c"/>  
+  <File usedCount="3" path="syscalls/syscalls.c"/>  
   <File usedCount="2" path="cmsis/core_cm4.h"/>  
   <File usedCount="2" path="cmsis/core_cm4_simd.h"/>  
   <File usedCount="2" path="cmsis/core_cmfunc.h"/>  
@@ -66,5 +66,5 @@
   <File usedCount="2" path="cmsis_lib/include/stm32f4xx_crc.h"/>  
   <File usedCount="2" path="cmsis_lib/source/stm32f4xx_crc.c"/>  
   <File usedCount="2" path="cmsis_lib/include/stm32f4xx_pwr.h"/>  
-  <File usedCount="2" path="cmsis_lib/source/stm32f4xx_pwr.c"/>
+  <File usedCount="2" path="cmsis_lib/source/stm32f4xx_pwr.c"/> 
 </History>
