@@ -16,6 +16,7 @@ CCC-Mannheim 2013
 #include <stdio.h>
 #include <stdlib.h>
 #include "art-net.h"
+#include "telnetserver.h"
 
 /* Private typedef -----------------------------------------------------------*/
 
@@ -58,8 +59,8 @@ int main(void)
   
   /* tcp echo server Init */
   //tcp_echoserver_init();
-  //telnetserver_init();
- artnet_init();
+  telnetserver_init();
+  //artnet_init();
 
   ws2812_init();
   /* Initialize variables for ws2812 */
